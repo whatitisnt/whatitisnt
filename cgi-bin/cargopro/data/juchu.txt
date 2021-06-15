@@ -1,0 +1,58 @@
+<!-- 受注フォーム -->
+<input type=hidden name="_SUBJECT" value="発注票(ＳＫＡＴＥＢＯＡＲＤ)"><!-- ←このフォームから送信されるメールの題名-->
+
+<h3>■代金支払方法について</h3>
+<p>
+お振込み後に発送となりますので、合計購入金額を下記口座までお振込下さい。<br>
+尚、振込手数料はそちらでご負担下さい。<br><br>
+お振込口座　あさひ銀行　渋谷支店　普通１６０９０１９　サクラインターナショナル株式会社
+<p>
+<p>
+<h3>■配送について</h3>
+<p>
+※場合によっては配送時間を指定できますので、ご選択下さい。<br>
+(ご希望に添えない場合もございます。)
+<p>
+配送希望時間 <select name="配送時間" size=1>
+<option selected value="希望なし">希望なし
+<option value="午前">午前
+<option value="12時～14時">12時～14時
+<option value="14時～16時">14時～16時
+<option value="16時～18時">16時～18時
+<option value="18時～20時">18時～20時
+<option value="20時～21時">20時～21時
+</select>
+<p>
+<p>
+<h3>■お申し込み者</h3>
+<p>
+お名前<input type=text name="申込者氏名" value="" size=30><br>
+〒<input type=text name="申込者〒" value="" size=10><br>
+ご住所<input type=text name="申込者住所" value="" size=60><br>
+Ｅメール<input type=text name="_EMAIL" value="" size=40><!-- ←この設定は変更しないこと--><br>
+電話番号<input type=text name="申込者電話" value="" size=20><br>
+ＦＡＸ番号<input type=text name="申込者FAX" value="" size=20>
+<p>
+優先して希望されるご連絡方法
+<input type=radio name="連絡方法" value="Ｅメール" checked>Ｅメール
+<input type=radio name="連絡方法" value="電話">電話
+<input type=radio name="連絡方法" value="FAX">FAX
+<br>
+通信事項<br>
+<textarea name="通信事項" cols=60 rows=5 wrap=off></textarea>
+<p>
+<p>
+<h3>■ご発送先</h3>
+※お申し込み者と異なる場合のみご記入下さい。
+<p>
+発送先名<input type=text name="発送先名" value="" size=30><br>
+〒<input type=text name="発送先〒" value="" size=10><br>
+発送先住所<input type=text name="発送先住所" value="" size=60><br>
+※都道府県名から詳しくご記入ください。<br>
+発送先電話番号<input type=text name="発送先電話" value="" size=20><br>
+<p>
+<input type="image" src="../../cargoimg/maru.gif" border="0">
+<a href="#" onClick="JavaScript:kounyu.reset()"><img src="../../cargoimg/batsu.gif" border="0"></a><!-- ←この設定は必ず入れること-->
+
+<p>
+<font size=-1>※在庫に限りがあるものは、先にご注文された方から適用されます。</font>
