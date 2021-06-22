@@ -18,7 +18,7 @@
           <td>
             <div align="right" class="text">
 
-            <div id="container"> </div><script>
+            <div id="flash"> </div><script>
                 window.RufflePlayer = window.RufflePlayer || {};
                 window.RufflePlayer.config = {
 
@@ -29,13 +29,13 @@
                 window.addEventListener("load", (event) => {
                     const ruffle = window.RufflePlayer.newest();
                     const player = ruffle.createPlayer();
-                    const container = document.getElementById("container");
+                    const container = document.getElementById("flash");
                     container.appendChild(player);
                     player.load("top0220.swf");
                     player.style.width = "700px"; player.style.height = "400px";
                 });
             </script>
-            <script src="ruffle/ruffle.js"></script>
+
 
             <br>
               <a onclick="CloseWindow();" href="#" class="text">close </a>
