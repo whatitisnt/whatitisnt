@@ -25,6 +25,7 @@
                 // Options affecting files only
                 "autoplay": "auto",
                 "unmuteOverlay": "visible",
+                "letterbox": "fullscreen",
             };
                 window.addEventListener("load", (event) => {
                     const ruffle = window.RufflePlayer.newest();
@@ -32,7 +33,6 @@
                     const container = document.getElementById("flash");
                     container.appendChild(player);
                     player.load("top0220.swf");
-                    player.style.width = "700px"; player.style.height = "400px";
                 });
             </script>
             <script src="ruffle/ruffle.js"></script>
