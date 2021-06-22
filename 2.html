@@ -23,8 +23,8 @@
                 window.RufflePlayer.config = {
 
                 // Options affecting files only
-                "autoplay": "on",
-                "unmuteOverlay": "hidden",
+                "autoplay": "auto",
+                "unmuteOverlay": "visible",
             };
                 window.addEventListener("load", (event) => {
                     const ruffle = window.RufflePlayer.newest();
@@ -35,7 +35,7 @@
                     player.style.width = "700px"; player.style.height = "400px";
                 });
             </script>
-
+            <script src="ruffle/ruffle.js"></script>
 
             <br>
               <a onclick="CloseWindow();" href="#" class="text">close </a>
