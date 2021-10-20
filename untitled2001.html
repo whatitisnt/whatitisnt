@@ -1,25 +1,23 @@
 <html>
 <head></head>
 <body>
-<div id="flash"> </div>
-<script>
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.RufflePlayer.config = {
+<div id="flash"> </div><script>
+                window.RufflePlayer = window.RufflePlayer || {};
+                window.RufflePlayer.config = {
 
-    // Options affecting files only
-    "autoplay": "on",
-    "backgroundColor": "#000066",
-    "unmuteOverlay": "hidden",
-    };
-    window.addEventListener("load", (event) => {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
-        container.appendChild(player);
-        player.load("top0220.swf");
-        player.style.width = "700px"; player.style.height = "400px";
-    });
-</script>
-<script src="https://whatitisnt.github.io/whatitisnt/ruffle/ruffle.js"></script>
+                // Options affecting files only
+                "autoplay": "auto",
+                "unmuteOverlay": "visible",
+            };
+                window.addEventListener("load", (event) => {
+                    const ruffle = window.RufflePlayer.newest();
+                    const player = ruffle.createPlayer();
+                    const container = document.getElementById("flash");
+                    container.appendChild(player);
+                    player.load("top0220.swf");
+                    player.style.width = "700px"; player.style.height = "400px";
+                });
+            </script>
+            <script src="ruffle/ruffle.js"></script>
 </body>
 </html>
