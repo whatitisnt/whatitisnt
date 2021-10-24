@@ -14,7 +14,10 @@
                     const player = ruffle.createPlayer();
                     const container = document.getElementById("flash");
                     container.appendChild(player);
-                    player.load("top0220.swf");
+                    player.load({
+                         url: "top0220.swf",
+                         allowScriptAccess: true,
+                    });
                     player.style.width = "100%"; player.style.height = "100%";
                 });
             </script>
