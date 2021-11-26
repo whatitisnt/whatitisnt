@@ -1,7 +1,7 @@
     $(document).ready(function () {
       $("#booklet").flipBook({
         pages:[
-          {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d6fb2d7adaebb475ef3c_0-front.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c216f6570d46bd9b1e_thumb-0-front.jpeg", title:"Cover"},
+          {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a111588303754b31c8c3ac_0-front.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a111a015332ceb70150ff2_thumb-0-front.jpeg", title:"Cover"},
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d6fb7a464051bf16ffcd_00.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c33d8918f83cc42f3e_thumb-00.jpeg", title:"00"},
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d6fc3a8061682727daf2_01.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c2f2b1f214d63a49a2_thumb-01.jpeg", title:"01"},
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d6fbf3daa210b5894a28_02.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c217f9bfca057f77f4_thumb-02.jpeg", title:"02"},
