@@ -94,6 +94,7 @@
         btnToc:{enabled:false},
         btnSound:{enabled:false},
         btnSelect:{enabled:false},
+        btnExpand:{enabled:false},
         currentPage:{enabled:false},
         btnExpand:{enabled:true, hideOnMobile:true}
       });
