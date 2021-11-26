@@ -84,12 +84,16 @@
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d70107e6e5d67a0e0c7d_79.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c9798ebd673fc66956_thumb-79.jpeg", title:"79"},
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d7014e6773f3633ae499_80.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c85c8f593f746edb75_thumb-80.jpeg", title:"80"},
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d70275358d05edc0c6ff_81.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c865af7a3f01caaa3c_thumb-81.jpeg", title:"81"},
-          {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d702009df36c4cbb90bc_82-back.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c8e5c2bc4cbe54b009_thumb-82-back.jpeg", title:"82"}
+          {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a12dd01cdfbf68ec9161c7_82-back.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a12e0e6de9ab5bab8b35e5_thumb-82-back.jpeg", title:"82"}
         ],
         lightBox:true,
         btnPrint:{enabled:false},
         btnDownloadPages:{enabled:false},
         btnDownloadPdf:{enabled:false},
+        btnBookmark:{enabled:false},
+        btnToc:{enabled:false},
+        btnSound:{enabled:false},
+        btnSelect:{enabled:false},
         btnExpand:{enabled:true, hideOnMobile:true}
       });
     })
