@@ -1,5 +1,5 @@
     $(document).ready(function () {
-      $("#booklet").flipBook({
+      $("#booklet, #readbooklet").flipBook({
         pages:[
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a111588303754b31c8c3ac_0-front.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a111a015332ceb70150ff2_thumb-0-front.jpeg", title:"Cover"},
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0d6fb7a464051bf16ffcd_00.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a0f0c33d8918f83cc42f3e_thumb-00.jpeg", title:"00"},
