@@ -87,6 +87,7 @@
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a12dd01cdfbf68ec9161c7_82-back.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a12e0e6de9ab5bab8b35e5_thumb-82-back.jpeg", title:"82"}
         ],
         lightBox:true,
+        deeplinkingPrefix:"booklet_",
         btnPrint:{enabled:false},
         btnDownloadPages:{enabled:false},
         btnDownloadPdf:{enabled:false},
