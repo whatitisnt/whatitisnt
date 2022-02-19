@@ -1,5 +1,3 @@
-<script>
-
 $('audio#track1').on('ended', function(){
   $( '.track2' ).click();
 });
@@ -55,5 +53,3 @@ $('audio#track13').on('ended', function(){
 $('audio#track14').on('ended', function(){
   $( '.track1' ).click();
 });
-
-</script>
