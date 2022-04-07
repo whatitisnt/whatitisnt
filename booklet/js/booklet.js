@@ -86,6 +86,7 @@
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a76b06c2c690d48314ef74_81-2021-12-01.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a76b73c2c690e14814f119_thumb-81-2021-12-01.jpeg", title:"81"},
           {src:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a12dd01cdfbf68ec9161c7_82-back.jpg", thumb:"https://uploads-ssl.webflow.com/60bf345f64a85ec4d98343c5/61a12e0e6de9ab5bab8b35e5_thumb-82-back.jpeg", title:"82"}
         ],
+        deeplinking:{enabled:false},
         lightBox:true,
         btnPrint:{enabled:false},
         btnDownloadPages:{enabled:false},
