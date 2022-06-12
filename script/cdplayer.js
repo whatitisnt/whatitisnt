@@ -6,6 +6,10 @@ $("#listenbuttonmob").click(function () {
   $("#cdstart").click();
 });
 
+$("#slidercdbutton").click(function () {
+  $("#cdstart").click();
+});
+
 $(".cdplayer-lyricswrapper").click(function () {
   $(".splide__pagination__page").eq(0).click();
 });
